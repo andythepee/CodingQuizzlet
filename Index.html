@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Quizzlet 2023</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen" class="container">
+      <h1>Coding Quiz 2023</h1>
+      <p>Welcome to the Coding Quiz! Click the button below to start.</p>
+      <button id="start-button">Start</button>
+    </div>
+    <div>
+    <div id="quiz-screen" style="display: none;">
+      <p id="question">fds</p>
+      <ul id="choices">
+        <il class="button"></il>
+        <il class="button"></il>
+        <il class="button"></il>
+        <il class="button"></il>
+      </ul>
+      <p id="timer"></p>
+    </div>
+    </div>
+    <div id="high-score-screen" style="display:none">
+      <h1>Game Over</h1>
+      <p>Your final score is <span id="final-score"></span></p>
+        <label for="initials">Enter your initials:</label>
+        <input type="text" id="initials" name="initials">
+        <button id="submit-score" type="submit">Submit</button>
+      <div id="highScoreScreen">
+        <div class="high-scores-container">
+          <ol id="highScore"></ol>
+        </div>
+      </div>
+      <table>
+        <button id="restart-button">Restart Game</button>
+      </table>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
